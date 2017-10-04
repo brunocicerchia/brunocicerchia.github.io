@@ -1,62 +1,36 @@
-<<<<<<< HEAD
 ///
-/// Hyperspace by HTML5 UP
+/// Dimension by HTML5 UP
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
-/* Wrapper (main) */
+/* Wrapper */
 
 	#wrapper {
-		#sidebar + & {
-			margin-left: _size(sidebar-width);
+		@include vendor('display', 'flex');
+		@include vendor('flex-direction', 'column');
+		@include vendor('align-items', 'center');
+		@include vendor('justify-content', 'space-between');
+		position: relative;
+		min-height: 100vh;
+		width: 100%;
+		padding: 4rem 2rem;
+		z-index: 3;
 
-			@include breakpoint(large) {
-				margin-left: 0;
-				padding-top: _size(sidebar-height);
-			}
-
-			@include breakpoint(small) {
-				padding-top: 0;
-			}
+		&:before {
+			content: '';
+			display: block;
 		}
 
-		#header + & {
-			> .wrapper {
-				> .inner {
-					margin: 0 auto;
-				}
-			}
-		}
-=======
-///
-/// Hyperspace by HTML5 UP
-/// html5up.net | @ajlkn
-/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-///
-
-/* Wrapper (main) */
-
-	#wrapper {
-		#sidebar + & {
-			margin-left: _size(sidebar-width);
-
-			@include breakpoint(large) {
-				margin-left: 0;
-				padding-top: _size(sidebar-height);
-			}
-
-			@include breakpoint(small) {
-				padding-top: 0;
-			}
+		@include breakpoint(xlarge) {
+			padding: 3rem 2rem;
 		}
 
-		#header + & {
-			> .wrapper {
-				> .inner {
-					margin: 0 auto;
-				}
-			}
+		@include breakpoint(small) {
+			padding: 2rem 1rem;
 		}
->>>>>>> bf643793422a08234dd11299de15b32bdc571a90
+
+		@include breakpoint(xsmall) {
+			padding: 1rem;
+		}
 	}
