@@ -1,378 +1,288 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Bruno Cicerchia</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" type="image/png" href="images/favicon.ico" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body>
+<!DOCTYPE html>
+<html lang="es">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portafolio Dev</title>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-code"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Aplicaciones Multiplataforma</h1>
-								<p>Desarrollo de aplicaciones multiplataforma<br> con lo ultimo en tecnologia</p>
-							</div>
-							<ul class="icons">
-								<li><a href="https://twitter.com/BrunoCicerchia0" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-								<li><a href="https://web.facebook.com/Bruno-Cicerchia-225300601337121" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-								<li><a href="https://www.instagram.com/brunocicerchia/" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-								<li><a href="https://github.com/brunocicerchia" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.linkedin.com/in/bruno-cicerchia-58a062144/" class="icon fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-								<li><a href="https://medium.com/@brunocicerchia.dev" class="icon fa-medium" target="_blank"><span class="label">Medium</span></a></li>
-							</ul>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#intro">Habilidades</a></li>
-								<li><a href="#work">Experiencia</a></li>
-								<li><a href="#about">Certificación</a></li>
-								<li><a href="#contact">Contacto</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
+	<!-- Tailwind CSS -->
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-				<!-- Main -->
-					<div id="main">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Habilidades</h2>
-								<ul>
-									<li>Desarrollo de aplicaciones para dispositivos moviles Android</li>
-									<li>Desarrollo de aplicaciones de escritorio para Windows, Linux y Mac</li>
-									<li>Administracion de servidores en Azure</li>
-								</ul>
-							</article>
+	<!-- Animaciones personalizadas -->
+	<style>
+		@keyframes fade-up {
+			0% {
+				opacity: 0;
+				transform: translateY(20px);
+			}
 
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Experiencia</h2>
-								<ul>
-									<a href="http://1linecode.com/" target="_blank"><li>
-									<u>1linecode.com</u><br>Pagina Estatica desarollada como proyecto personal
-										</li></a>
-									<a href="https://github.com/brunocicerchia/1linecode" target="_blank"><li>
-									<u>Pagina Personal/Portafolio</u><br>Pagina desarrollada como pagina estatica
-									</li></a>
-									<a href="https://github.com/brunocicerchia/TopArtistsApp" target="_blank"><li>
-										<u>TopArtist</u><br>Aplicacion desarrollada con React-Native
-									</li></a>
-								</ul>
-							</article>
+			100% {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
 
-						<!-- About -->
-							<article id="about">
-								<center><h2 class="major">Certificación</h2>
-									<tr>
-										<div class="imagen">
-    									<a href="https://platzi.com/@brunocicerchia/programacion-basica/diploma/"><img src="images/badge-prog-basica-2017.png" style="height: 400px; width: 150; margin-bottom: 20px;"></a>
-										</div>
-										<div class="imagen">
-											<a href="https://platzi.com/@brunocicerchia/react-native/diploma/"><img src="images/badge-react-native.png" style="height: 400px; width: 150; margin-bottom: 20px;"></a>
-										</div>
-										<div class="imagen">
-											<a href="https://platzi.com/@brunocicerchia/azure/diploma/"><img src="images/azure2x.png" style="height: 400px; width: 150; margin-bottom: 20px;"></a>
-										</div>
-  								</tr></center><br>
-									<center>
-    								<th><a href="https://platzi.com/@brunocicerchia/"><h3>Ver Todos los Diplomas</h3></a></th>
-  								</center>
-								</article>
+		@keyframes fade-left {
+			0% {
+				opacity: 0;
+				transform: translateX(20px);
+			}
 
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contacto</h2>
-								<h3>Email:</h3>
-								<a href="mailto:brunocicerchia.dev@gmail.com"><h6>brunocicerchia.dev@gmail.com</h6></a>
-								<h3>Redes Sociales:</h3>
-								<ul class="icons">
-									<li><a href="https://twitter.com/BrunoCicerchia0" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-									<li><a href="https://web.facebook.com/Bruno-Cicerchia-225300601337121" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-									<li><a href="https://www.instagram.com/brunocicerchia/" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-									<li><a href="https://github.com/brunocicerchia" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-									<li><a href="https://www.linkedin.com/in/bruno-cicerchia-58a062144/" class="icon fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-									<li><a href="https://medium.com/@brunocicerchia.dev" class="icon fa-medium" target="_blank"><span class="label">Medium</span></a></li>
-								</ul>
-							</article>
+			100% {
+				opacity: 1;
+				transform: translateX(0);
+			}
+		}
 
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
+		.animate-fade-up {
+			animation: fade-up 1s ease-out forwards;
+		}
 
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
+		.animate-fade-left {
+			animation: fade-left 1s ease-out forwards;
+		}
 
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
+		.js-scroll {
+			opacity: 0;
+		}
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
+		.scrolled {
+			animation-duration: 1s;
+			animation-timing-function: ease-out;
+			animation-fill-mode: forwards;
+		}
+	</style>
+</head>
 
-								<section>
-									<h3 class="major">Lists</h3>
-
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button special">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions vertical">
-										<li><a href="#" class="button special">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
-
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button special">Special</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button special icon fa-download">Icon</a></li>
-										<li><a href="#" class="button icon fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button special disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="field half first">
-											<label for="demo-name">Name</label>
-											<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-										</div>
-										<div class="field half">
-											<label for="demo-email">Email</label>
-											<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-										</div>
-										<div class="field">
-											<label for="demo-category">Category</label>
-											<div class="select-wrapper">
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-										</div>
-										<div class="field half first">
-											<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-											<label for="demo-priority-low">Low</label>
-										</div>
-										<div class="field half">
-											<input type="radio" id="demo-priority-high" name="demo-priority">
-											<label for="demo-priority-high">High</label>
-										</div>
-										<div class="field half first">
-											<input type="checkbox" id="demo-copy" name="demo-copy">
-											<label for="demo-copy">Email me a copy</label>
-										</div>
-										<div class="field half">
-											<input type="checkbox" id="demo-human" name="demo-human" checked>
-											<label for="demo-human">Not a robot</label>
-										</div>
-										<div class="field">
-											<label for="demo-message">Message</label>
-											<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="special" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">Desgned By: <a href="https://twitter.com/BrunoCicerchia0">Bruno Cicerchia</a>.</p>
-					</footer>
-
+<body class="bg-gradient-to-r from-gray-100 to-gray-200">
+	<!-- Navbar -->
+	<nav id="navbar" class="w-full z-50 transition-all duration-300 bg-white shadow">
+		<div class="container mx-auto px-6 py-4">
+			<div class="flex items-center justify-between">
+				<a href="#" class="text-2xl font-bold text-[#592202]">Bruno Cicerchia</a>
+	
+				<!-- Desktop Menu -->
+				<div class="hidden md:flex space-x-8">
+					<a href="#home" class="nav-link hover:text-[#592202]">Inicio</a>
+					<a href="#projects" class="nav-link hover:text-[#592202]">Proyectos</a>
+					<a href="#about" class="nav-link hover:text-[#592202]">Sobre Mí</a>
+					<a href="#contact" class="nav-link hover:text-[#592202]">Contacto</a>
+				</div>
+	
+				<!-- Mobile Menu Button -->
+				<button id="menu-btn" class="md:hidden focus:outline-none">
+					<i class="fas fa-bars text-2xl"></i>
+				</button>
 			</div>
+		</div>
+	
+		<!-- Mobile Menu Content -->
+		<div id="mobile-menu" class="hidden md:hidden bg-white py-4">
+			<div class="flex flex-col items-center space-y-4">
+				<a href="#home" class="nav-link">Inicio</a>
+				<a href="#projects" class="nav-link">Proyectos</a>
+				<a href="#about" class="nav-link">Sobre Mí</a>
+				<a href="#contact" class="nav-link">Contacto</a>
+			</div>
+		</div>
+	</nav>
 
-		<!-- BG -->
-			<div id="bg"></div>
+	<!-- Sección Inicio -->
+	<section id="home" class="min-h-screen flex items-center pt-20">
+		<div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+			<div class="text-center md:text-left md:w-1/2 js-scroll">
+				<h1 class="text-5xl md:text-6xl font-bold mb-6">¡Hola, soy <span class="text-[#592202]">Bruno!</span></h1>
+				<p class="text-xl md:text-2xl text-gray-600 mb-8">Trabajo en el desarrollo de soluciones personalizadas que
+					se ajusten a los desafíos de tu negocio, brindándote
+					herramientas efectivas para potenciar su crecimiento.</p>
+				<a href="#projects"
+					class="bg-[#592202] text-white px-8 py-3 rounded-full hover:bg-[#412202] transition-all">Ver
+					Proyectos</a>
+			</div>
+			<div class="md:w-1/2 mt-8 md:mt-0 js-scroll">
+				<img src="images/ilus.svg" alt="Ilustración" class="w-full h-auto">
+			</div>
+		</div>
+	</section>
+	
+	<!-- Sección Proyectos -->
+	<section id="projects" class="py-20 bg-white">
+		<div class="container mx-auto px-6">
+			<h2 class="text-4xl font-bold text-center mb-12 js-scroll">Mis Proyectos</h2>
+	
+			<div class="grid md:grid-cols-2 gap-8">
+				<!-- Proyecto 1 -->
+				<div class="project-card js-scroll">
+					<img src="/images/findescoffee.png" alt="Proyecto 1" class="w-full h-90 object-cover rounded-t-lg">
+					<div class="p-6">
+						<h3 class="text-xl font-bold mb-3">FindesCoffee Store/Landing Page</h3>
+						<p class="text-gray-600 mb-4">Desarrollo completo de pagina web con incorporación de compras
+							mediante la API de MercadoPago</p>
+						<div class="flex space-x-4">
+							<a href="/desarrollo-web-findescoffee" class="text-[#592202] hover:underline">Conocer mas</a>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Proyecto 2 -->
+				<div class="project-card js-scroll" data-delay="200">
+					<img src="/images/importnow.png" alt="Proyecto 2" class="w-full h-90 object-cover rounded-t-lg">
+					<div class="p-6">
+						<h3 class="text-xl font-bold mb-3">ImportNow Landing Page</h3>
+						<p class="text-gray-600 mb-4">Desarrollo completo de pagina web en formato Landing Page</p>
+						<div class="flex space-x-4">
+							<a href="#" class="text-[#592202] hover:underline">Demo</a>
+							<a href="#" class="text-[#592202] hover:underline">Código</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/cssMode.js"></script>
-			<script src="assets/js/consoleMensaje.js"></script>
-	</body>
+	<!-- Sección Sobre Mí -->
+	<section id="about" class="py-20">
+		<div class="container mx-auto px-6">
+			<div class="flex flex-col md:flex-row items-center gap-12">
+
+				<div class="md:w-2/3" data-aos="fade-left">
+					<h2 class="text-4xl font-bold mb-6">Sobre Mí</h2>
+					<p class="text-gray-600 mb-6">Desarrollador con 5 años de experiencia creando soluciones web
+						innovadoras. Especializado en JavaScript moderno y frameworks frontend.</p>
+					<div class="flex flex-wrap gap-4">
+						<div class="skill-icon"><i class="fab fa-html5 text-4xl text-orange-500"></i></div>
+						<div class="skill-icon"><i class="fab fa-css3-alt text-4xl text-blue-500"></i></div>
+						<div class="skill-icon"><i class="fab fa-js-square text-4xl text-yellow-500"></i></div>
+						<div class="skill-icon"><i class="fab fa-react text-4xl text-blue-400"></i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Sección Contacto -->
+	<section id="contact" class="py-20 bg-white">
+		<div class="container mx-auto px-6">
+			<h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-up">Contáctame</h2>
+
+			<form class="max-w-lg mx-auto" data-aos="zoom-in">
+				<div class="mb-6">
+					<input type="text" placeholder="Nombre"
+						class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-indigo-500">
+				</div>
+				<div class="mb-6">
+					<input type="email" placeholder="Correo"
+						class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-indigo-500">
+				</div>
+				<div class="mb-6">
+					<textarea rows="5" placeholder="Mensaje"
+						class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-indigo-500"></textarea>
+				</div>
+				<button class="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition-all">
+					Enviar Mensaje
+				</button>
+			</form>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="bg-gray-800 text-white py-12">
+		<div class="container mx-auto px-6">
+			<div class="flex flex-col items-center space-y-6">
+				<div class="flex space-x-6">
+					<a href="#" class="hover:text-indigo-400"><i class="fab fa-github text-2xl"></i></a>
+					<a href="#" class="hover:text-indigo-400"><i class="fab fa-linkedin text-2xl"></i></a>
+					<a href="#" class="hover:text-indigo-400"><i class="fab fa-twitter text-2xl"></i></a>
+				</div>
+				<p class="text-center text-gray-400">© 2023 Todos los derechos reservados</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script>
+		// Intersection Observer para animaciones
+		const observer = new IntersectionObserver((entries) => {
+					entries.forEach(entry => {
+						if (entry.isIntersecting) {
+							const animationType = entry.target.dataset.animation || 'fade-up';
+							const delay = entry.target.dataset.delay || 0;
+
+							entry.target.style.animationDelay = `${delay}ms`;
+							entry.target.classList.add('scrolled', `animate-${animationType}`);
+						}
+					});
+		}, {
+					threshold: 0.1
+		});
+
+		document.querySelectorAll('.js-scroll').forEach((element) => {
+					observer.observe(element);
+		});
+
+		// Navbar Scroll Effect
+		window.addEventListener('scroll', () => {
+			const navbar = document.getElementById('navbar');
+			if (window.scrollY > 50) {
+				navbar.classList.add('bg-white', 'shadow-md');
+			} else {
+				navbar.classList.remove('bg-white', 'shadow-md');
+			}
+		});
+
+		// Menú Mobile
+		const menuBtn = document.getElementById('menu-btn');
+		const mobileMenu = document.getElementById('mobile-menu');
+		menuBtn.addEventListener('click', () => {
+			mobileMenu.classList.toggle('hidden');
+		});
+
+		// Smooth Scroll
+		document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault();
+				document.querySelector(this.getAttribute('href')).scrollIntoView({
+					behavior: 'smooth'
+				});
+			});
+		});
+
+		// Back to Top Button
+		const backToTop = document.getElementById('back-to-top');
+		window.addEventListener('scroll', () => {
+			if (window.scrollY > 300) {
+				backToTop.classList.remove('hidden');
+			} else {
+				backToTop.classList.add('hidden');
+			}
+		});
+
+		backToTop.addEventListener('click', () => {
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth'
+			});
+		});
+	</script>
+
+	<style>
+		/* Estilos personalizados */
+		.project-card {
+			@apply bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105;
+		}
+
+		.skill-icon {
+			@apply hover:scale-110 transition-transform duration-300 cursor-pointer;
+		}
+
+		.nav-link {
+			@apply transition-colors duration-300 text-gray-600;
+		}
+	</style>
+</body>
+
 </html>
