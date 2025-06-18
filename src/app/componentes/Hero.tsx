@@ -159,7 +159,7 @@ export default function Hero() {
   return (
     <section
       ref={heroRef}
-      className="relative h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50 overflow-hidden flex items-center justify-center pt-16"
+      className="relative h-screen overflow-hidden flex items-center justify-center pt-16"
     >
       {/* Elementos flotantes de programación distribuidos uniformemente */}
       <div className="absolute inset-0 pointer-events-none">

@@ -194,10 +194,7 @@ ${formData.message ? `Mensaje: ${formData.message}` : ""}
   };
 
   return (
-    <section
-      ref={contactRef}
-      className="py-20 bg-gradient-to-br from-blue-50 via-white to-purple-50"
-    >
+    <section ref={contactRef} className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Título */}
         <div ref={titleRef} className="text-center mb-16">

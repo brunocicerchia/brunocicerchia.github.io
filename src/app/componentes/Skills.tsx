@@ -114,37 +114,38 @@ export default function Skills() {
         }
       );
 
-      // Animación de las tarjetas
+      // Animación de las tarjetas - de izquierda a derecha secuencialmente
       skillCardsRef.current.forEach((card, index) => {
         if (card) {
           gsap.fromTo(
             card,
             {
               opacity: 0,
-              y: 60,
+              x: -100, // Empiezan desde la izquierda
               scale: 0.8,
             },
             {
               opacity: 1,
-              y: 0,
+              x: 0,
               scale: 1,
-              duration: 0.6,
-              delay: index * 0.1,
+              duration: 0.8,
+              delay: index * 0.15, // Delay secuencial más espaciado
               ease: "power2.out",
               scrollTrigger: {
                 trigger: card,
-                start: "top 85%",
-                end: "bottom 15%",
+                start: "top 90%", // Trigger más temprano
+                end: "bottom 10%",
                 toggleActions: "play none none reverse",
               },
             }
           );
 
-          // Hover effect
+          // Hover effect mejorado
           card.addEventListener("mouseenter", () => {
             gsap.to(card, {
               scale: 1.05,
               y: -10,
+              rotationY: 5, // Efecto 3D sutil
               duration: 0.3,
               ease: "power2.out",
             });
@@ -154,6 +155,7 @@ export default function Skills() {
             gsap.to(card, {
               scale: 1,
               y: 0,
+              rotationY: 0,
               duration: 0.3,
               ease: "power2.out",
             });

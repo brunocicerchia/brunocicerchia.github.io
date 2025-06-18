@@ -53,19 +53,19 @@ export default function Navbar() {
           {/* Social Links Desktop */}
           <div className="hidden md:flex items-center space-x-4">
             <Link
-              href="https://github.com"
+              href="https://github.com/brunocicerchia"
               className="text-gray-500 hover:text-gray-700 transition-colors p-2 hover:bg-gray-100/80 rounded-full"
             >
               <Github className="w-5 h-5" />
             </Link>
             <Link
-              href="https://linkedin.com"
+              href="https://ar.linkedin.com/in/brunocicerchia"
               className="text-gray-500 hover:text-gray-700 transition-colors p-2 hover:bg-gray-100/80 rounded-full"
             >
               <Linkedin className="w-5 h-5" />
             </Link>
             <Link
-              href="mailto:contact@example.com"
+              href="mailto:contacto@brunocicerchia.me"
               className="text-gray-500 hover:text-gray-700 transition-colors p-2 hover:bg-gray-100/80 rounded-full"
             >
               <Mail className="w-5 h-5" />
@@ -110,19 +110,19 @@ export default function Navbar() {
           <div className="flex items-center space-x-4 px-3 py-2 border-t border-gray-200/50 mt-4">
             <span className="text-sm text-gray-500 font-medium">Sígueme:</span>
             <Link
-              href="https://github.com"
+              href="https://github.com/brunocicerchia"
               className="text-gray-500 hover:text-gray-700 transition-colors p-2 hover:bg-gray-100/80 rounded-full"
             >
               <Github className="w-5 h-5" />
             </Link>
             <Link
-              href="https://linkedin.com"
+              href="https://ar.linkedin.com/in/brunocicerchia"
               className="text-gray-500 hover:text-gray-700 transition-colors p-2 hover:bg-gray-100/80 rounded-full"
             >
               <Linkedin className="w-5 h-5" />
             </Link>
             <Link
-              href="mailto:contact@example.com"
+              href="mailto:contacto@brunocicerchia.me"
               className="text-gray-500 hover:text-gray-700 transition-colors p-2 hover:bg-gray-100/80 rounded-full"
             >
               <Mail className="w-5 h-5" />
